@@ -10,7 +10,7 @@ export default function Header() {
     useEffect(() => {
         async function fetchWeather() {
 
-            const response = await fetch('https://api.open-meteo.com/v1/forecast?latitude=53.3331&longitude=-6.2489&current_weather=true');            
+            const response = await fetch('');            
             
             if(!response.ok) {
                 console.error("Error fetching weather data");
